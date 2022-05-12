@@ -62,7 +62,7 @@ void main() {
       //User input
       print("Enter Organizer Name:");
       organizerName = stdin.readLineSync()!;
-
+//1811239 Nazmi : This is what I assigned from choose date until the clash part
       //date validation
       do {
         print("Select Schedule for the events (Date, Month, Year)");
@@ -159,7 +159,7 @@ void main() {
     } else {
       print('Wrong Input');
     }
-
+// Until here
     //ask user is he/she want's to continue of end the program
     print('Do you want to continue: (Y/N) : ');
     continueToBook = stdin.readLineSync();
